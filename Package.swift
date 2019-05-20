@@ -30,6 +30,9 @@ import PackageDescription
 
 let package = Package(
   name: "AwaitKit",
+  platforms: [
+    .macOS(.v10_14), .iOS(.v10),
+    ],
   products: [
     .library(
       name: "AwaitKit",
