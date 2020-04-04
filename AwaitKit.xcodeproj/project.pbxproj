@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE21EFF2204B556300BDDA39 /* AwaitKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE41FCD21F46D9A700CD2271 /* AwaitKit.swift */; };
+		DC03665D2438235E0046F568 /* AwaitKit.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DC03665C2438235E0046F568 /* AwaitKit.xcconfig */; };
 		FE41FCDD1F46D9AC00CD2271 /* AwaitKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE41FCD21F46D9A700CD2271 /* AwaitKit.swift */; };
 		FE41FCDE1F46D9AC00CD2271 /* AwaitKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE41FCD31F46D9A700CD2271 /* AwaitKitExtension.swift */; };
 		FE41FCDF1F46D9AC00CD2271 /* DispatchQueue+Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE41FCD41F46D9A700CD2271 /* DispatchQueue+Async.swift */; };
@@ -79,6 +80,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC03665C2438235E0046F568 /* AwaitKit.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = AwaitKit.xcconfig; sourceTree = "<group>"; };
 		FE41FCD21F46D9A700CD2271 /* AwaitKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwaitKit.swift; sourceTree = "<group>"; };
 		FE41FCD31F46D9A700CD2271 /* AwaitKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwaitKitExtension.swift; sourceTree = "<group>"; };
 		FE41FCD41F46D9A700CD2271 /* DispatchQueue+Async.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Async.swift"; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 		FEF014141E39E12200C4A60B = {
 			isa = PBXGroup;
 			children = (
+				DC03665C2438235E0046F568 /* AwaitKit.xcconfig */,
 				FE41FCD11F46D9A700CD2271 /* Sources */,
 				FE41FCD71F46D9A700CD2271 /* Tests */,
 				FEF0141F1E39E12200C4A60B /* Products */,
@@ -316,6 +319,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC03665D2438235E0046F568 /* AwaitKit.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +366,7 @@
 /* Begin XCBuildConfiguration section */
 		FE41FD631F46F19F00CD2271 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC03665C2438235E0046F568 /* AwaitKit.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -373,6 +378,7 @@
 		};
 		FE41FD641F46F19F00CD2271 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC03665C2438235E0046F568 /* AwaitKit.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -507,6 +513,7 @@
 		};
 		FEF014271E39E12200C4A60B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC03665C2438235E0046F568 /* AwaitKit.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -523,6 +530,7 @@
 		};
 		FEF014281E39E12200C4A60B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC03665C2438235E0046F568 /* AwaitKit.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_IDENTITY = "";
